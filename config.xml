@@ -23,6 +23,7 @@
     <plugin name="cordova-plugin-android-permissions" />
     <preference name="orientation" value="landscape" />
     <preference name="fullscreen" value="false" />
+    <preference name="AndroidPersistentFileLocation" value="Compatibility" />
     <preference name="DisallowOverscroll" value="true" />
     <preference name="LoadUrlTimeoutValue" value="120000" />
     <preference name="phonegap-version" value="cli-8.0.0" />
