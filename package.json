@@ -1,0 +1,7 @@
+{
+	"name": "testads",
+	"private": true,
+	"dependencies": {
+		"cordova-android": "^8.0.0"
+	}
+}

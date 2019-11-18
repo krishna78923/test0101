@@ -1,0 +1,110 @@
+{
+	"id": "com.testapp.test",
+	"version": "1.0.0.0",
+	"versionCode": 1000000,
+	"name": "testads",
+	"description": "ad test",
+	"whitelist": [
+		"http://*/*",
+		"https://*/*"
+	],
+	"author": "akshay",
+	"email": "krishnaramdu@gmail.com",
+	"website": "",
+	"orientation": "landscape",
+	"fullscreen": false,
+	"permissions": [
+		"android.permission.CAMERA",
+		"android.permission.RECORD_AUDIO",
+		"android.permission.MODIFY_AUDIO_SETTINGS",
+		"android.permission.WRITE_EXTERNAL_STORAGE"
+	],
+	"icons": [
+		{
+			"src": "www/icons/icon-512.png",
+			"width": 512,
+			"height": 512,
+			"density": "xxxhdpi"
+		},
+		{
+			"src": "www/icons/icon-256.png",
+			"width": 256,
+			"height": 256,
+			"density": null
+		},
+		{
+			"src": "www/icons/icon-128.png",
+			"width": 128,
+			"height": 128,
+			"density": "xhdpi"
+		},
+		{
+			"src": "www/icons/icon-64.png",
+			"width": 64,
+			"height": 64,
+			"density": "mdpi"
+		},
+		{
+			"src": "www/icons/icon-32.png",
+			"width": 32,
+			"height": 32,
+			"density": null
+		},
+		{
+			"src": "www/icons/icon-16.png",
+			"width": 16,
+			"height": 16,
+			"density": null
+		}
+	],
+	"plugins": [
+		{
+			"id": "construct-mobile-advert",
+			"version": "1.4.3",
+			"variables": [
+				[
+					"ADMOB_APP_ID",
+					" ca-app-pub-5166832021053938~2299207548"
+				]
+			]
+		},
+		{
+			"id": "cordova-plugin-whitelist",
+			"version": "",
+			"variables": []
+		},
+		{
+			"id": "construct-plugin-file",
+			"version": "",
+			"variables": []
+		},
+		{
+			"id": "cordova-plugin-vibration",
+			"version": "",
+			"variables": []
+		},
+		{
+			"id": "cordova-plugin-fullscreen",
+			"version": "",
+			"variables": []
+		},
+		{
+			"id": "construct-mobile-notchfix",
+			"version": "",
+			"variables": []
+		},
+		{
+			"id": "cordova-plugin-android-permissions",
+			"version": "",
+			"variables": []
+		}
+	],
+	"android": {
+		"min": "21",
+		"target": "28",
+		"plugins": []
+	},
+	"splash": "www/icons/default@2x~universal~anyany.png",
+	"ios": null,
+	"useragent": null
+}
